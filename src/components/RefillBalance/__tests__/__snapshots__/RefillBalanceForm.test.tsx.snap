@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefillBalanceFormWrapper empty form 1`] = `"<form><div class=\\"form-group\\"><label for=\\"phone\\">Номер телефона</label><input class=\\"form-control\\" id=\\"phone\\" placeholder=\\"Введите номер телефона\\" name=\\"phone\\" value=\\"\\"/></div><div class=\\"form-group\\"><label for=\\"amount\\">Сумма</label><input class=\\"form-control\\" id=\\"amount\\" placeholder=\\"Введите сумму для пополнения\\" name=\\"amount\\" value=\\"\\"/></div><button type=\\"submit\\" class=\\"btn btn-primary\\">Пополнить</button></form>"`;

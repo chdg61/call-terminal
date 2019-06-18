@@ -1,0 +1,28 @@
+@import "~react-s-alert/dist/s-alert-default.css";
+@import "~react-s-alert/dist/s-alert-css-effects/slide.css";
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    height: 100vh;
+}
+
+#root {
+    width: 100%;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@media (max-width: 575.98px) {
+    .h1, h1 {
+        font-size: 1.5rem;
+    }
+}

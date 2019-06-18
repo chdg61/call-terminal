@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RefillBalanceFormMaskField default render 1`] = `"<label for=\\"phone-test\\">Номер телефона</label><input class=\\"form-control\\" id=\\"phone-test\\" placeholder=\\"Введите номер телефона\\" name=\\"phone-test\\" value=\\"\\"/>"`;

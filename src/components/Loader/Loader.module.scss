@@ -1,0 +1,53 @@
+.loader {
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.81);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+    &__block {
+        display: inline-block;
+        width: 64px;
+        height: 64px;
+
+        &:after {
+            content: " ";
+            display: block;
+            width: 66px;
+            height: 66px;
+            margin: 1px;
+            border-radius: 50%;
+            border-top-color: transparent;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            box-shadow: 3px 3px 1px rgb(0,0,0);
+            animation: cssload-spin 690ms infinite linear;
+        }
+    }
+}
+
+@keyframes cssload-spin {
+    100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-o-keyframes cssload-spin {
+    100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-ms-keyframes cssload-spin {
+    100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-webkit-keyframes cssload-spin {
+    100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+
+@-moz-keyframes cssload-spin {
+    100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}
